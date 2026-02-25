@@ -1,0 +1,59 @@
+body{
+	font-family:'comic Sans MS', cursive;
+	margin:0;
+	background-color:#ffe6f2;
+}
+header{
+	background:#ff4dab;
+	color:white;
+	padding:20px;
+	text-align:center;
+}
+nav a{
+	color:white;
+	margin:10px;
+	text-decoration:none;
+	font-weight:bold;
+	background:#ff80bf;
+	padding:8px 15px;
+	border-radius:20px;
+}
+nav a:hover{
+	background:#ff1a8c;
+}
+.container{
+	padding:20px;
+	text-align:center;
+}
+.products{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.card{
+	background:white;
+	width:200px;
+	padding:15px;
+	border-radius:15px;
+	margin:15px;;
+	box-shadow:0 0 10px pink;
+}
+.card img{
+	width:100%;
+	border-radius:15px;
+	margin-bottom:10px;
+}
+form input,textarea{
+	width:90%;
+	padding:8px;
+	margin:8px;
+	border-radius:15px;
+	border:1px solid pink;
+}
+button{
+	background:#ff4dab;
+	color:white;
+	padding:8px 15px;
+	border:none;
+	border-radius:20px;
+}

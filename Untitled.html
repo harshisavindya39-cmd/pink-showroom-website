@@ -1,0 +1,16 @@
+	<div class="card"
+	<h2>Order Now</h2>
+	<form onsubmit="show message()">
+		<input type="text" placeholder="Your Name" required>
+		<input type="text" placeholder="Product Name" required>
+		<input type="text" placeholder="Address" required>
+		<input type="tel" placeholder="Phone Number" required>
+		<textarea placeholder="Message"></textarea>
+		<button type="submit">Place order</button>
+	</form>
+	<p id="msg"></p>
+</div>
+<script>
+function showMessage(){
+	document.getElementById("msg").innerHTML="Thank you! Your order has been received";
+</script>
